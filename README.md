@@ -24,10 +24,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1 - Create 2 virtual machines in Microsoft Azure
+- Step 2 - set up a few firewall rules
+- Step 3 - set permissions and create organizational units for employees and admins on the server
+- Step 4 - allow the employee's PC to be able to connect to the network
+- Step 5 - run a script to create employees
+- Step 6 - Create scenarios
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -35,7 +37,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/9rJzkNU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I created 2 virtual machines in Microsoft Azure. One acts as a Server for users to connect to, and the other simulates an employee terminal. I then set up a few firewall rules. Then, set permissions and create organizational units for employees and admins on the server.
 </p>
 <br />
 
@@ -43,7 +45,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/OGrmPsr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next, we need to allow the employee's PC to be able to connect to the network that has been established.
 </p>
 <br />
 
@@ -51,6 +53,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/oNwDupa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ After all of the setup is done, I run a script to create employees. Using one of the created employees, I create scenarios like an expired password, being locked out from too many attempts, and a new employee set up.
 </p>
 <br />
